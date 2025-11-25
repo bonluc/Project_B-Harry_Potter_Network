@@ -1,138 +1,1029 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2025-11-17">
+  <meta lastmodifieddate="2025-11-25">
     <creator>NetworkX 3.4.2</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Gender" type="string" />
+      <attribute id="1" title="House" type="string" />
+      <attribute id="2" title="Blood status" type="string" />
+      <attribute id="3" title="Boggart" type="string" />
+      <attribute id="4" title="Species" type="string" />
+    </attributes>
     <nodes>
-      <node id="Alastor Moody" label="Alastor Moody" />
-      <node id="Tom Riddle" label="Tom Riddle" />
-      <node id="Albus Dumbledore" label="Albus Dumbledore" />
-      <node id="Amelia Bones" label="Amelia Bones" />
-      <node id="Arnold Peasegood" label="Arnold Peasegood" />
-      <node id="Arthur Weasley" label="Arthur Weasley" />
-      <node id="Bartemius Crouch Senior" label="Bartemius Crouch Senior" />
-      <node id="Bellatrix Lestrange" label="Bellatrix Lestrange" />
-      <node id="Buckbeak" label="Buckbeak" />
-      <node id="Charles Weasley" label="Charles Weasley" />
-      <node id="Cornelius Fudge" label="Cornelius Fudge" />
-      <node id="Dean Thomas" label="Dean Thomas" />
-      <node id="Dedalus Diggle" label="Dedalus Diggle" />
-      <node id="Dobby" label="Dobby" />
-      <node id="Dolores Umbridge" label="Dolores Umbridge" />
-      <node id="Draco Malfoy" label="Draco Malfoy" />
-      <node id="Emmeline Vance" label="Emmeline Vance" />
-      <node id="Fawkes" label="Fawkes" />
-      <node id="Filius Flitwick" label="Filius Flitwick" />
-      <node id="Firenze" label="Firenze" />
-      <node id="Fleur Delacour" label="Fleur Delacour" />
-      <node id="Fred Weasley" label="Fred Weasley" />
-      <node id="Garrick Ollivander" label="Garrick Ollivander" />
-      <node id="George Weasley" label="George Weasley" />
-      <node id="Ginevra Weasley" label="Ginevra Weasley" />
-      <node id="Harry Potter" label="Harry Potter" />
-      <node id="Helena Ravenclaw" label="Helena Ravenclaw" />
-      <node id="Hermione Granger" label="Hermione Granger" />
-      <node id="Horace Slughorn" label="Horace Slughorn" />
-      <node id="Igor Karkaroff" label="Igor Karkaroff" />
-      <node id="James Potter (I)" label="James Potter (I)" />
-      <node id="Kingsley Shacklebolt" label="Kingsley Shacklebolt" />
-      <node id="Kreacher" label="Kreacher" />
-      <node id="Lily Potter (I)" label="Lily Potter (I)" />
-      <node id="Lucius Malfoy" label="Lucius Malfoy" />
-      <node id="Ludovic Bagman" label="Ludovic Bagman" />
-      <node id="Luna Lovegood" label="Luna Lovegood" />
-      <node id="Minerva McGonagall" label="Minerva McGonagall" />
-      <node id="Molly Weasley" label="Molly Weasley" />
-      <node id="Neville Longbottom" label="Neville Longbottom" />
-      <node id="Nymphadora Tonks" label="Nymphadora Tonks" />
-      <node id="Olympe Maxime" label="Olympe Maxime" />
-      <node id="Peeves" label="Peeves" />
-      <node id="Percy Weasley" label="Percy Weasley" />
-      <node id="Peter Pettigrew" label="Peter Pettigrew" />
-      <node id="Pomona Sprout" label="Pomona Sprout" />
-      <node id="Poppy Pomfrey" label="Poppy Pomfrey" />
-      <node id="Remus Lupin" label="Remus Lupin" />
-      <node id="Rita Skeeter" label="Rita Skeeter" />
-      <node id="Ronald Weasley" label="Ronald Weasley" />
-      <node id="Rubeus Hagrid" label="Rubeus Hagrid" />
-      <node id="Rufus Scrimgeour" label="Rufus Scrimgeour" />
-      <node id="Severus Snape" label="Severus Snape" />
-      <node id="Sirius Black" label="Sirius Black" />
-      <node id="Sybill Trelawney" label="Sybill Trelawney" />
-      <node id="Vernon Dursley" label="Vernon Dursley" />
-      <node id="Weasley family" label="Weasley family" />
-      <node id="William Weasley" label="William Weasley" />
-      <node id="Winky" label="Winky" />
-      <node id="Xenophilius Lovegood" label="Xenophilius Lovegood" />
-      <node id="Amos Diggory" label="Amos Diggory" />
-      <node id="Aragog" label="Aragog" />
-      <node id="Argus Filch" label="Argus Filch" />
-      <node id="Cedric Diggory" label="Cedric Diggory" />
-      <node id="Fang" label="Fang" />
-      <node id="Gilderoy Lockhart" label="Gilderoy Lockhart" />
-      <node id="Irma Pince" label="Irma Pince" />
-      <node id="Marjorie Dursley" label="Marjorie Dursley" />
-      <node id="Myrtle Warren" label="Myrtle Warren" />
-      <node id="Quirinus Quirrell" label="Quirinus Quirrell" />
-      <node id="Regulus Black" label="Regulus Black" />
-      <node id="Rowena Ravenclaw" label="Rowena Ravenclaw" />
-      <node id="Salazar Slytherin" label="Salazar Slytherin" />
-      <node id="Anthony Goldstein" label="Anthony Goldstein" />
-      <node id="Cho Chang" label="Cho Chang" />
-      <node id="Colin Creevey" label="Colin Creevey" />
-      <node id="Cuthbert Binns" label="Cuthbert Binns" />
-      <node id="Dudley Dursley" label="Dudley Dursley" />
-      <node id="Fluffy" label="Fluffy" />
-      <node id="Hannah Abbott" label="Hannah Abbott" />
-      <node id="Lavender Brown" label="Lavender Brown" />
-      <node id="Marietta Edgecombe" label="Marietta Edgecombe" />
-      <node id="Michael Corner" label="Michael Corner" />
-      <node id="Mrs Norris" label="Mrs Norris" />
-      <node id="Petunia Dursley" label="Petunia Dursley" />
-      <node id="Rolanda Hooch" label="Rolanda Hooch" />
-      <node id="Seamus Finnigan" label="Seamus Finnigan" />
-      <node id="Septima Vector" label="Septima Vector" />
-      <node id="Susan Bones" label="Susan Bones" />
-      <node id="Terry Boot" label="Terry Boot" />
-      <node id="Wilhelmina Grubbly-Plank" label="Wilhelmina Grubbly-Plank" />
-      <node id="Godric Gryffindor" label="Godric Gryffindor" />
-      <node id="Helga Hufflepuff" label="Helga Hufflepuff" />
-      <node id="Narcissa Malfoy" label="Narcissa Malfoy" />
-      <node id="Penelope Clearwater" label="Penelope Clearwater" />
-      <node id="Viktor Krum" label="Viktor Krum" />
-      <node id="Padma Patil" label="Padma Patil" />
-      <node id="Gregory Goyle" label="Gregory Goyle" />
-      <node id="Cuthbert Mockridge" label="Cuthbert Mockridge" />
-      <node id="Wilkie Twycross" label="Wilkie Twycross" />
-      <node id="Dennis Creevey" label="Dennis Creevey" />
-      <node id="Parvati Patil" label="Parvati Patil" />
-      <node id="Vincent Crabbe" label="Vincent Crabbe" />
-      <node id="Archie Aymslowe" label="Archie Aymslowe" />
-      <node id="Cadogan" label="Cadogan" />
-      <node id="Norberta" label="Norberta" />
-      <node id="Broderick Bode" label="Broderick Bode" />
-      <node id="Fat Lady" label="Fat Lady" />
-      <node id="Hedwig" label="Hedwig" />
-      <node id="Otto Bagman" label="Otto Bagman" />
-      <node id="Bane" label="Bane" />
-      <node id="Griphook" label="Griphook" />
-      <node id="Bertie Bott" label="Bertie Bott" />
-      <node id="Cornelius Agrippa" label="Cornelius Agrippa" />
-      <node id="Bloody Baron" label="Bloody Baron" />
-      <node id="Fat Friar" label="Fat Friar" />
-      <node id="Crookshanks" label="Crookshanks" />
-      <node id="Pigwidgeon" label="Pigwidgeon" />
-      <node id="Gabrielle Delacour" label="Gabrielle Delacour" />
-      <node id="Euan Abercrombie" label="Euan Abercrombie" />
-      <node id="Violet" label="Violet" />
-      <node id="Ronan" label="Ronan" />
-      <node id="Gilbert Wimple" label="Gilbert Wimple" />
-      <node id="Poliakoff" label="Poliakoff" />
-      <node id="Magorian" label="Magorian" />
-      <node id="Malcolm Baddock" label="Malcolm Baddock" />
-      <node id="Mandy Brocklehurst" label="Mandy Brocklehurst" />
-      <node id="Sally-Anne Perks" label="Sally-Anne Perks" />
+      <node id="Alastor Moody" label="Alastor Moody">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Unknown[4]" />
+          <attvalue for="2" value="Pure-blood[4]" />
+          <attvalue for="3" value="Lord Voldemort[9]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Tom Riddle" label="Tom Riddle">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Slytherin[6][7]" />
+          <attvalue for="2" value="Half-blood[3]" />
+          <attvalue for="3" value="His own corpse[13]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Albus Dumbledore" label="Albus Dumbledore">
+        <attvalues>
+          <attvalue for="0" value="Male[10]" />
+          <attvalue for="1" value="Gryffindor[25]" />
+          <attvalue for="2" value="Half-blood[7]" />
+          <attvalue for="3" value="The corpse of his sister, Ariana[17]" />
+          <attvalue for="4" value="Human[10]" />
+        </attvalues>
+      </node>
+      <node id="Amelia Bones" label="Amelia Bones">
+        <attvalues>
+          <attvalue for="0" value="Female[5]" />
+          <attvalue for="2" value="Pure-blood or half-blood[3]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Arnold Peasegood" label="Arnold Peasegood">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Arthur Weasley" label="Arthur Weasley">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Gryffindor[14]" />
+          <attvalue for="2" value="Pure-blood[4]" />
+          <attvalue for="3" value="Lord Voldemort[9]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Bartemius Crouch Senior" label="Bartemius Crouch Senior">
+        <attvalues>
+          <attvalue for="0" value="Male[6]" />
+          <attvalue for="2" value="Pure-blood[4]" />
+          <attvalue for="3" value="Lord Voldemort[9]" />
+          <attvalue for="4" value="Human[6]" />
+        </attvalues>
+      </node>
+      <node id="Bellatrix Lestrange" label="Bellatrix Lestrange">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Slytherin[17]" />
+          <attvalue for="2" value="Pure-blood[4]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Buckbeak" label="Buckbeak">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="4" value="Hippogriff[4]" />
+        </attvalues>
+      </node>
+      <node id="Charles Weasley" label="Charles Weasley">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Gryffindor" />
+          <attvalue for="2" value="Pure-blood" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Cornelius Fudge" label="Cornelius Fudge">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="2" value="Pure-blood or half-blood[2] (most likely)" />
+          <attvalue for="3" value="Lord Voldemort[7]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Dean Thomas" label="Dean Thomas">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Gryffindor[4]" />
+          <attvalue for="2" value="Half-blood[2]" />
+          <attvalue for="3" value="Severed hand walking on its own[7]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Dedalus Diggle" label="Dedalus Diggle">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="2" value="Pure-blood or half-blood (most likely)[1]" />
+          <attvalue for="4" value="Human[2]" />
+        </attvalues>
+      </node>
+      <node id="Dobby" label="Dobby">
+        <attvalues>
+          <attvalue for="0" value="Male[3]" />
+          <attvalue for="3" value="Lord Voldemort[6]" />
+          <attvalue for="4" value="House-elf[3]" />
+        </attvalues>
+      </node>
+      <node id="Dolores Umbridge" label="Dolores Umbridge">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Slytherin[1][10]" />
+          <attvalue for="2" value="Half-blood[3]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Draco Malfoy" label="Draco Malfoy">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Slytherin[10]" />
+          <attvalue for="2" value="Pure-blood[1]" />
+          <attvalue for="3" value="Lord Voldemort[7]" />
+          <attvalue for="4" value="HumanFerret (briefly)[3]" />
+        </attvalues>
+      </node>
+      <node id="Emmeline Vance" label="Emmeline Vance">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Fawkes" label="Fawkes">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="4" value="Phoenix[2]" />
+        </attvalues>
+      </node>
+      <node id="Filius Flitwick" label="Filius Flitwick">
+        <attvalues>
+          <attvalue for="0" value="Male[5]" />
+          <attvalue for="1" value="Ravenclaw[2][14]" />
+          <attvalue for="2" value="Half-breed (part-goblin)" />
+          <attvalue for="3" value="Lord Voldemort[10]" />
+          <attvalue for="4" value="Part-human/part-goblin[2]" />
+        </attvalues>
+      </node>
+      <node id="Firenze" label="Firenze">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="4" value="Centaur[4]" />
+        </attvalues>
+      </node>
+      <node id="Fleur Delacour" label="Fleur Delacour">
+        <attvalues>
+          <attvalue for="0" value="Female[3]" />
+          <attvalue for="2" value="Half-breed (quarter-Veela)[3]" />
+          <attvalue for="3" value="Lord Voldemort[17]" />
+          <attvalue for="4" value="Part-human/quarter-Veela[3]" />
+        </attvalues>
+      </node>
+      <node id="Fred Weasley" label="Fred Weasley">
+        <attvalues>
+          <attvalue for="0" value="Male[5]" />
+          <attvalue for="1" value="Gryffindor[5]" />
+          <attvalue for="2" value="Pure-blood" />
+          <attvalue for="3" value="Lord Voldemort[7]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Garrick Ollivander" label="Garrick Ollivander">
+        <attvalues>
+          <attvalue for="0" value="Male[5]" />
+          <attvalue for="1" value="Ravenclaw[1]" />
+          <attvalue for="2" value="Half-blood[1]" />
+          <attvalue for="3" value="Lord Voldemort[8]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="George Weasley" label="George Weasley">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Gryffindor[2]" />
+          <attvalue for="2" value="Pure-blood[2]" />
+          <attvalue for="3" value="Lord Voldemort[11]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Ginevra Weasley" label="Ginevra Weasley">
+        <attvalues>
+          <attvalue for="0" value="Female[5]" />
+          <attvalue for="1" value="Gryffindor" />
+          <attvalue for="2" value="Pure-blood[3]" />
+          <attvalue for="3" value="Lord Voldemort[18]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Harry Potter" label="Harry Potter">
+        <attvalues>
+          <attvalue for="0" value="Male[5]" />
+          <attvalue for="1" value="Gryffindor[56]" />
+          <attvalue for="2" value="Half-blood[2]" />
+          <attvalue for="3" value="Dementor[48][49]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Helena Ravenclaw" label="Helena Ravenclaw">
+        <attvalues>
+          <attvalue for="0" value="Female[5]" />
+          <attvalue for="1" value="Ravenclaw[6]" />
+          <attvalue for="2" value="Pure-blood or half-blood[3]" />
+          <attvalue for="4" value="Human[5] (formerly)Ghost[5]" />
+        </attvalues>
+      </node>
+      <node id="Hermione Granger" label="Hermione Granger">
+        <attvalues>
+          <attvalue for="0" value="Female[14]" />
+          <attvalue for="1" value="Gryffindor[26]" />
+          <attvalue for="2" value="Muggle-born[3][4]" />
+          <attvalue for="3" value="Failure[21]" />
+          <attvalue for="4" value="Human[14]" />
+        </attvalues>
+      </node>
+      <node id="Horace Slughorn" label="Horace Slughorn">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Slytherin[14][1]" />
+          <attvalue for="2" value="Pure-blood (most likely)[1][3]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Igor Karkaroff" label="Igor Karkaroff">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="2" value="Pure-blood (most likely)[4]" />
+          <attvalue for="3" value="Lord Voldemort[9]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="James Potter (I)" label="James Potter (I)">
+        <attvalues>
+          <attvalue for="0" value="Male[8]" />
+          <attvalue for="1" value="Gryffindor[15]" />
+          <attvalue for="2" value="Pure-blood[3][4]" />
+          <attvalue for="4" value="Human[8]" />
+        </attvalues>
+      </node>
+      <node id="Kingsley Shacklebolt" label="Kingsley Shacklebolt">
+        <attvalues>
+          <attvalue for="0" value="Male[5]" />
+          <attvalue for="2" value="Pure-blood[2]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Kreacher" label="Kreacher">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="4" value="House-elf[2]" />
+        </attvalues>
+      </node>
+      <node id="Lily Potter (I)" label="Lily Potter (I)">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Gryffindor" />
+          <attvalue for="2" value="Muggle-born[3]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Lucius Malfoy" label="Lucius Malfoy">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Slytherin" />
+          <attvalue for="2" value="Pure-blood[2]" />
+          <attvalue for="3" value="Lord Voldemort[11]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Ludovic Bagman" label="Ludovic Bagman">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="2" value="Pure-blood or half-blood[1]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Luna Lovegood" label="Luna Lovegood">
+        <attvalues>
+          <attvalue for="0" value="Female[8]" />
+          <attvalue for="1" value="Ravenclaw[8]" />
+          <attvalue for="2" value="Pure-blood or half-blood[3]" />
+          <attvalue for="4" value="Human[8]" />
+        </attvalues>
+      </node>
+      <node id="Minerva McGonagall" label="Minerva McGonagall">
+        <attvalues>
+          <attvalue for="0" value="Female[3]" />
+          <attvalue for="1" value="Gryffindor[3]" />
+          <attvalue for="2" value="Half-blood[1]" />
+          <attvalue for="3" value="Lord Voldemort[11]" />
+          <attvalue for="4" value="Human[3]" />
+        </attvalues>
+      </node>
+      <node id="Molly Weasley" label="Molly Weasley">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Gryffindor[10]" />
+          <attvalue for="2" value="Pure-blood[4]" />
+          <attvalue for="3" value="Corpses of her family and Harry Potter[7]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Neville Longbottom" label="Neville Longbottom">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Gryffindor[12]" />
+          <attvalue for="2" value="Pure-blood[3]" />
+          <attvalue for="3" value="Severus Snape[8]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Nymphadora Tonks" label="Nymphadora Tonks">
+        <attvalues>
+          <attvalue for="0" value="Female[8]" />
+          <attvalue for="1" value="Hufflepuff[17]" />
+          <attvalue for="2" value="Half-blood[4]" />
+          <attvalue for="3" value="Losing her abilities[14]" />
+          <attvalue for="4" value="Human[8]" />
+        </attvalues>
+      </node>
+      <node id="Olympe Maxime" label="Olympe Maxime">
+        <attvalues>
+          <attvalue for="0" value="Female[4]" />
+          <attvalue for="2" value="Half-breed (half-giant)[2][3]" />
+          <attvalue for="4" value="Half-human/half-giant[2][3]" />
+        </attvalues>
+      </node>
+      <node id="Peeves" label="Peeves">
+        <attvalues>
+          <attvalue for="0" value="Male[5]" />
+          <attvalue for="4" value="Poltergeist[5]" />
+        </attvalues>
+      </node>
+      <node id="Percy Weasley" label="Percy Weasley">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Gryffindor[12]" />
+          <attvalue for="2" value="Pure-blood" />
+          <attvalue for="3" value="Lord Voldemort[8]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Peter Pettigrew" label="Peter Pettigrew">
+        <attvalues>
+          <attvalue for="0" value="Male[5]" />
+          <attvalue for="1" value="Gryffindor[10]" />
+          <attvalue for="2" value="Pure-blood or half-blood[2]" />
+          <attvalue for="3" value="Lord Voldemort[7]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Pomona Sprout" label="Pomona Sprout">
+        <attvalues>
+          <attvalue for="0" value="Female[6]" />
+          <attvalue for="1" value="Hufflepuff[18][19]" />
+          <attvalue for="2" value="Pure-blood or half-blood[4]" />
+          <attvalue for="3" value="Lord Voldemort[13]" />
+          <attvalue for="4" value="Human[6]" />
+        </attvalues>
+      </node>
+      <node id="Poppy Pomfrey" label="Poppy Pomfrey">
+        <attvalues>
+          <attvalue for="0" value="Female[5]" />
+          <attvalue for="2" value="Pure-blood or half-blood[2]" />
+          <attvalue for="3" value="Lord Voldemort[6]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Remus Lupin" label="Remus Lupin">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Gryffindor[1][2]" />
+          <attvalue for="2" value="Half-blood[2]" />
+          <attvalue for="3" value="Full moon[10]" />
+          <attvalue for="4" value="Human (werewolf)[5]" />
+        </attvalues>
+      </node>
+      <node id="Rita Skeeter" label="Rita Skeeter">
+        <attvalues>
+          <attvalue for="0" value="Female[6]" />
+          <attvalue for="2" value="Pure-blood or half-blood (possibly)[2]" />
+          <attvalue for="3" value="Lord Voldemort[9]" />
+          <attvalue for="4" value="Human[6]" />
+        </attvalues>
+      </node>
+      <node id="Ronald Weasley" label="Ronald Weasley">
+        <attvalues>
+          <attvalue for="0" value="Male[12]" />
+          <attvalue for="1" value="Gryffindor[12]" />
+          <attvalue for="2" value="Pure-blood[2][3]" />
+          <attvalue for="3" value="Aragog[24][25]" />
+          <attvalue for="4" value="Human[12]" />
+        </attvalues>
+      </node>
+      <node id="Rubeus Hagrid" label="Rubeus Hagrid">
+        <attvalues>
+          <attvalue for="0" value="Male[7]" />
+          <attvalue for="1" value="Gryffindor[13]" />
+          <attvalue for="2" value="Half-breed (half-giant)" />
+          <attvalue for="3" value="Lord Voldemort[11]" />
+          <attvalue for="4" value="Half-human/half-giant[6]" />
+        </attvalues>
+      </node>
+      <node id="Rufus Scrimgeour" label="Rufus Scrimgeour">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="2" value="Pure-blood or half-blood (possibly)[3]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Severus Snape" label="Severus Snape">
+        <attvalues>
+          <attvalue for="0" value="Male[10]" />
+          <attvalue for="1" value="Slytherin[17]" />
+          <attvalue for="2" value="Half-blood[3]" />
+          <attvalue for="3" value="Lord Voldemort[15]" />
+          <attvalue for="4" value="Human[10]" />
+        </attvalues>
+      </node>
+      <node id="Sirius Black" label="Sirius Black">
+        <attvalues>
+          <attvalue for="0" value="Male[9]" />
+          <attvalue for="1" value="Gryffindor[15]" />
+          <attvalue for="2" value="Pure-blood" />
+          <attvalue for="3" value="Lord Voldemort[13]" />
+          <attvalue for="4" value="Human[9]" />
+        </attvalues>
+      </node>
+      <node id="Sybill Trelawney" label="Sybill Trelawney">
+        <attvalues>
+          <attvalue for="0" value="Female[6]" />
+          <attvalue for="1" value="Ravenclaw[1]" />
+          <attvalue for="2" value="Half-blood[1]" />
+          <attvalue for="3" value="Lord Voldemort[7]" />
+          <attvalue for="4" value="Human[6]" />
+        </attvalues>
+      </node>
+      <node id="Vernon Dursley" label="Vernon Dursley">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="2" value="Muggle[2][3]" />
+          <attvalue for="4" value="Human[2]" />
+        </attvalues>
+      </node>
+      <node id="Weasley family" label="Weasley family">
+        <attvalues>
+          <attvalue for="2" value="Pure-blood[1] with some non-pure-blood members" />
+        </attvalues>
+      </node>
+      <node id="William Weasley" label="William Weasley">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Gryffindor" />
+          <attvalue for="2" value="Pure-blood" />
+          <attvalue for="3" value="Losing his family[8]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Winky" label="Winky">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="4" value="House-elf" />
+        </attvalues>
+      </node>
+      <node id="Xenophilius Lovegood" label="Xenophilius Lovegood">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Ravenclaw[9]" />
+          <attvalue for="2" value="Pure-blood or half-blood[2]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Amos Diggory" label="Amos Diggory">
+        <attvalues>
+          <attvalue for="0" value="Male[3]" />
+          <attvalue for="2" value="Pure-blood or half-blood (likely)[1]" />
+          <attvalue for="3" value="Lord Voldemort[5]" />
+          <attvalue for="4" value="Human[3]" />
+        </attvalues>
+      </node>
+      <node id="Aragog" label="Aragog">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="4" value="Acromantula[4]" />
+        </attvalues>
+      </node>
+      <node id="Argus Filch" label="Argus Filch">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="2" value="Squib[2]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Cedric Diggory" label="Cedric Diggory">
+        <attvalues>
+          <attvalue for="0" value="Male[6]" />
+          <attvalue for="1" value="Hufflepuff[6]" />
+          <attvalue for="2" value="Pure-blood (possibly)[3]" />
+          <attvalue for="3" value="Lord Voldemort[11]" />
+          <attvalue for="4" value="Human[6]" />
+        </attvalues>
+      </node>
+      <node id="Fang" label="Fang">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="4" value="Boarhound[2]" />
+        </attvalues>
+      </node>
+      <node id="Gilderoy Lockhart" label="Gilderoy Lockhart">
+        <attvalues>
+          <attvalue for="0" value="Male[7]" />
+          <attvalue for="1" value="Ravenclaw[1][3][12]" />
+          <attvalue for="2" value="Half-blood[3]" />
+          <attvalue for="3" value="Lord Voldemort[8]" />
+          <attvalue for="4" value="Human[7]" />
+        </attvalues>
+      </node>
+      <node id="Irma Pince" label="Irma Pince">
+        <attvalues>
+          <attvalue for="0" value="Female[4]" />
+          <attvalue for="3" value="Lord Voldemort[7]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Marjorie Dursley" label="Marjorie Dursley">
+        <attvalues>
+          <attvalue for="0" value="Female[3]" />
+          <attvalue for="2" value="Muggle[2]" />
+          <attvalue for="4" value="Human[3]" />
+        </attvalues>
+      </node>
+      <node id="Myrtle Warren" label="Myrtle Warren">
+        <attvalues>
+          <attvalue for="0" value="Female[7]" />
+          <attvalue for="1" value="Ravenclaw[9]" />
+          <attvalue for="2" value="Muggle-born[5]" />
+          <attvalue for="4" value="Human (formerly)[7]Ghost[7]" />
+        </attvalues>
+      </node>
+      <node id="Quirinus Quirrell" label="Quirinus Quirrell">
+        <attvalues>
+          <attvalue for="0" value="Male[7]" />
+          <attvalue for="1" value="Ravenclaw[1]" />
+          <attvalue for="2" value="Half-blood[5]" />
+          <attvalue for="3" value="Lord Voldemort[9]" />
+          <attvalue for="4" value="Human[7]" />
+        </attvalues>
+      </node>
+      <node id="Regulus Black" label="Regulus Black">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Slytherin[7]" />
+          <attvalue for="2" value="Pure-blood" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Rowena Ravenclaw" label="Rowena Ravenclaw">
+        <attvalues>
+          <attvalue for="0" value="Female[6]" />
+          <attvalue for="1" value="Ravenclaw[6]" />
+          <attvalue for="2" value="Pure-blood or half-blood (likely)[4]" />
+          <attvalue for="4" value="Human[6]" />
+        </attvalues>
+      </node>
+      <node id="Salazar Slytherin" label="Salazar Slytherin">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="1" value="Slytherin[2]" />
+          <attvalue for="2" value="Pure-blood[2]" />
+          <attvalue for="4" value="Human[2]" />
+        </attvalues>
+      </node>
+      <node id="Anthony Goldstein" label="Anthony Goldstein">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Ravenclaw[8]" />
+          <attvalue for="2" value="Half-blood[1]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Cho Chang" label="Cho Chang">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Ravenclaw" />
+          <attvalue for="2" value="Pure-blood or half-blood[1]" />
+          <attvalue for="3" value="Lord Voldemort[5]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Colin Creevey" label="Colin Creevey">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Gryffindor[8]" />
+          <attvalue for="2" value="Muggle-born[2]" />
+          <attvalue for="3" value="Lord Voldemort[7]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Cuthbert Binns" label="Cuthbert Binns">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="4" value="Human (formerly)[2]Ghost[2]" />
+        </attvalues>
+      </node>
+      <node id="Dudley Dursley" label="Dudley Dursley">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="2" value="Muggle" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Fluffy" label="Fluffy">
+        <attvalues>
+          <attvalue for="0" value="Male[1]" />
+          <attvalue for="4" value="Three-headed dog[1]" />
+        </attvalues>
+      </node>
+      <node id="Hannah Abbott" label="Hannah Abbott">
+        <attvalues>
+          <attvalue for="0" value="Female[7]" />
+          <attvalue for="1" value="Hufflepuff[7]" />
+          <attvalue for="2" value="Pure-blood or half-blood (possibly)[2]" />
+          <attvalue for="3" value="Lord Voldemort[10]" />
+          <attvalue for="4" value="Human[7]" />
+        </attvalues>
+      </node>
+      <node id="Lavender Brown" label="Lavender Brown">
+        <attvalues>
+          <attvalue for="0" value="Female[6]" />
+          <attvalue for="1" value="Gryffindor[6]" />
+          <attvalue for="2" value="Pure-blood[3]" />
+          <attvalue for="3" value="One of the following:RatRattlesnakeBloody eyeball[8]" />
+          <attvalue for="4" value="Human[6]" />
+        </attvalues>
+      </node>
+      <node id="Marietta Edgecombe" label="Marietta Edgecombe">
+        <attvalues>
+          <attvalue for="0" value="Female[4]" />
+          <attvalue for="1" value="Ravenclaw[4]" />
+          <attvalue for="2" value="Pure-blood or half-blood[2]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Michael Corner" label="Michael Corner">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Ravenclaw[4]" />
+          <attvalue for="2" value="Half-blood[2]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Mrs Norris" label="Mrs Norris">
+        <attvalues>
+          <attvalue for="0" value="Female[1]" />
+          <attvalue for="4" value="Cat[1]" />
+        </attvalues>
+      </node>
+      <node id="Petunia Dursley" label="Petunia Dursley">
+        <attvalues>
+          <attvalue for="0" value="Female[3]" />
+          <attvalue for="2" value="Muggle[2]" />
+          <attvalue for="4" value="Human[3]" />
+        </attvalues>
+      </node>
+      <node id="Rolanda Hooch" label="Rolanda Hooch">
+        <attvalues>
+          <attvalue for="0" value="Female[4]" />
+          <attvalue for="3" value="Lord Voldemort[7]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Seamus Finnigan" label="Seamus Finnigan">
+        <attvalues>
+          <attvalue for="0" value="Male[6]" />
+          <attvalue for="1" value="Gryffindor[6]" />
+          <attvalue for="2" value="Half-blood[2]" />
+          <attvalue for="3" value="Banshee[11]" />
+          <attvalue for="4" value="Human[6]" />
+        </attvalues>
+      </node>
+      <node id="Septima Vector" label="Septima Vector">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="3" value="Lord Voldemort[2]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Susan Bones" label="Susan Bones">
+        <attvalues>
+          <attvalue for="0" value="Female[4]" />
+          <attvalue for="1" value="Hufflepuff[4][5]" />
+          <attvalue for="2" value="Half-blood[2]" />
+          <attvalue for="3" value="Lord Voldemort[6]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Terry Boot" label="Terry Boot">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Ravenclaw[4]" />
+          <attvalue for="2" value="Pure-blood or half-blood[2]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Wilhelmina Grubbly-Plank" label="Wilhelmina Grubbly-Plank">
+        <attvalues>
+          <attvalue for="0" value="Female[2]" />
+          <attvalue for="4" value="Human[2]" />
+        </attvalues>
+      </node>
+      <node id="Godric Gryffindor" label="Godric Gryffindor">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Gryffindor" />
+          <attvalue for="2" value="Pure-blood or half-blood[2]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Helga Hufflepuff" label="Helga Hufflepuff">
+        <attvalues>
+          <attvalue for="0" value="Female[5]" />
+          <attvalue for="1" value="Hufflepuff" />
+          <attvalue for="2" value="Pure-blood or half-blood[3]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Narcissa Malfoy" label="Narcissa Malfoy">
+        <attvalues>
+          <attvalue for="0" value="Female[4]" />
+          <attvalue for="1" value="Slytherin[13]" />
+          <attvalue for="2" value="Pure-blood[3]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Penelope Clearwater" label="Penelope Clearwater">
+        <attvalues>
+          <attvalue for="0" value="Female[4]" />
+          <attvalue for="1" value="Ravenclaw[4]" />
+          <attvalue for="2" value="Muggle-born or half-blood (likely)[1]" />
+          <attvalue for="3" value="Lord Voldemort[6]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Viktor Krum" label="Viktor Krum">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="2" value="Pure-blood[2]" />
+          <attvalue for="3" value="Lord Voldemort[8]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Padma Patil" label="Padma Patil">
+        <attvalues>
+          <attvalue for="0" value="Female[5]" />
+          <attvalue for="1" value="Ravenclaw[14]" />
+          <attvalue for="2" value="Pure-blood or half-blood[2]" />
+          <attvalue for="3" value="Giant cobra[11]" />
+          <attvalue for="4" value="Human[5]" />
+        </attvalues>
+      </node>
+      <node id="Gregory Goyle" label="Gregory Goyle">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Slytherin" />
+          <attvalue for="2" value="Pure-blood[1]" />
+          <attvalue for="3" value="Lord Voldemort[4]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Cuthbert Mockridge" label="Cuthbert Mockridge">
+        <attvalues>
+          <attvalue for="0" value="Male[1]" />
+          <attvalue for="4" value="Human[1]" />
+        </attvalues>
+      </node>
+      <node id="Wilkie Twycross" label="Wilkie Twycross">
+        <attvalues>
+          <attvalue for="0" value="Male[1]" />
+          <attvalue for="4" value="Human[1]" />
+        </attvalues>
+      </node>
+      <node id="Dennis Creevey" label="Dennis Creevey">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Gryffindor[2]" />
+          <attvalue for="2" value="Muggle-born[2]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Parvati Patil" label="Parvati Patil">
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Gryffindor[10]" />
+          <attvalue for="2" value="Pure-blood or half-blood[2]" />
+          <attvalue for="3" value="Mummy[8]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Vincent Crabbe" label="Vincent Crabbe">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Slytherin" />
+          <attvalue for="2" value="Pure-blood[1][2]" />
+          <attvalue for="3" value="Lord Voldemort[4]" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Archie Aymslowe" label="Archie Aymslowe">
+        <attvalues>
+          <attvalue for="0" value="Male[1]" />
+          <attvalue for="4" value="Human[1]" />
+        </attvalues>
+      </node>
+      <node id="Cadogan" label="Cadogan">
+        <attvalues>
+          <attvalue for="0" value="Male[1]" />
+          <attvalue for="1" value="Gryffindor[1]" />
+          <attvalue for="2" value="Pure-blood or half-blood[3]" />
+          <attvalue for="4" value="Human[1]" />
+        </attvalues>
+      </node>
+      <node id="Norberta" label="Norberta">
+        <attvalues>
+          <attvalue for="0" value="Female[3]" />
+          <attvalue for="4" value="Norwegian Ridgeback[2]" />
+        </attvalues>
+      </node>
+      <node id="Broderick Bode" label="Broderick Bode">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Fat Lady" label="Fat Lady">
+        <attvalues>
+          <attvalue for="0" value="Female[3]" />
+          <attvalue for="1" value="Gryffindor[3]" />
+          <attvalue for="4" value="Human[3]" />
+        </attvalues>
+      </node>
+      <node id="Hedwig" label="Hedwig">
+        <attvalues>
+          <attvalue for="0" value="Female[2]" />
+          <attvalue for="4" value="Snowy owl[2]" />
+        </attvalues>
+      </node>
+      <node id="Otto Bagman" label="Otto Bagman">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="2" value="Pure-blood or half-blood[1]" />
+          <attvalue for="4" value="Human[2]" />
+        </attvalues>
+      </node>
+      <node id="Avery (Riddle-era)" label="Avery (Riddle-era)">
+        <attvalues>
+          <attvalue for="0" value="Male[5][6]" />
+          <attvalue for="1" value="Slytherin[5][6]" />
+          <attvalue for="2" value="Pure-blood (most likely)[2][3]" />
+          <attvalue for="4" value="Human[5][6]" />
+        </attvalues>
+      </node>
+      <node id="Bane" label="Bane">
+        <attvalues>
+          <attvalue for="0" value="Male[1]" />
+          <attvalue for="4" value="Centaur[1]" />
+        </attvalues>
+      </node>
+      <node id="Griphook" label="Griphook">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="3" value="Lord Voldemort[4]" />
+          <attvalue for="4" value="Goblin[2]" />
+        </attvalues>
+      </node>
+      <node id="Bertie Bott" label="Bertie Bott">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Cornelius Agrippa" label="Cornelius Agrippa">
+        <attvalues>
+          <attvalue for="0" value="Male[1]" />
+          <attvalue for="4" value="Human[1]" />
+        </attvalues>
+      </node>
+      <node id="Bloody Baron" label="Bloody Baron">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Slytherin[6]" />
+          <attvalue for="2" value="Pure-blood or half-blood (most likely)" />
+          <attvalue for="4" value="Human[4] (formerly)Ghost[4]" />
+        </attvalues>
+      </node>
+      <node id="Fat Friar" label="Fat Friar">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Hufflepuff[7]" />
+          <attvalue for="4" value="Human (formerly)Ghost[4]" />
+        </attvalues>
+      </node>
+      <node id="Crookshanks" label="Crookshanks">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="4" value="Half-Kneazle cat[2][3]" />
+        </attvalues>
+      </node>
+      <node id="Pigwidgeon" label="Pigwidgeon">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="4" value="Scops owl" />
+        </attvalues>
+      </node>
+      <node id="Gabrielle Delacour" label="Gabrielle Delacour">
+        <attvalues>
+          <attvalue for="0" value="Female[2]" />
+          <attvalue for="2" value="Half-breed (quarter-Veela)" />
+          <attvalue for="3" value="Lord Voldemort[7]" />
+          <attvalue for="4" value="Part-human/quarter-Veela[2]" />
+        </attvalues>
+      </node>
+      <node id="Eleanor Branstone" label="Eleanor Branstone">
+        <attvalues>
+          <attvalue for="0" value="Female[2]" />
+          <attvalue for="1" value="Hufflepuff[2]" />
+          <attvalue for="4" value="Human[2]" />
+        </attvalues>
+      </node>
+      <node id="Euan Abercrombie" label="Euan Abercrombie">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="1" value="Gryffindor[2]" />
+          <attvalue for="4" value="Human[2]" />
+        </attvalues>
+      </node>
+      <node id="Violet" label="Violet">
+        <attvalues>
+          <attvalue for="0" value="Female[4]" />
+          <attvalue for="4" value="Human[4]" />
+        </attvalues>
+      </node>
+      <node id="Ronan" label="Ronan">
+        <attvalues>
+          <attvalue for="0" value="Male[1]" />
+          <attvalue for="4" value="Centaur[1]" />
+        </attvalues>
+      </node>
+      <node id="Gilbert Wimple" label="Gilbert Wimple">
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="4" value="Human" />
+        </attvalues>
+      </node>
+      <node id="Poliakoff" label="Poliakoff">
+        <attvalues>
+          <attvalue for="0" value="Male[3]" />
+          <attvalue for="2" value="Pure-blood[2]" />
+          <attvalue for="4" value="Human[3]" />
+        </attvalues>
+      </node>
+      <node id="Magorian" label="Magorian">
+        <attvalues>
+          <attvalue for="0" value="Male[1]" />
+          <attvalue for="4" value="Centaur[1]" />
+        </attvalues>
+      </node>
+      <node id="Malcolm Baddock" label="Malcolm Baddock">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="1" value="Slytherin[2]" />
+          <attvalue for="4" value="Human[2]" />
+        </attvalues>
+      </node>
+      <node id="Mandy Brocklehurst" label="Mandy Brocklehurst">
+        <attvalues>
+          <attvalue for="0" value="Female[3]" />
+          <attvalue for="1" value="Ravenclaw[3]" />
+          <attvalue for="2" value="Half-blood[1]" />
+          <attvalue for="4" value="Human[3]" />
+        </attvalues>
+      </node>
+      <node id="Mustard" label="Mustard" />
+      <node id="Sally-Anne Perks" label="Sally-Anne Perks">
+        <attvalues>
+          <attvalue for="0" value="Female[1]" />
+          <attvalue for="1" value="Gryffindor, Hufflepuff, or Slytherin[3]" />
+          <attvalue for="4" value="Human[1]" />
+        </attvalues>
+      </node>
+      <node id="Sir Nicholas de Mimsy-Porpington" label="Sir Nicholas de Mimsy-Porpington">
+        <attvalues>
+          <attvalue for="0" value="Male[4]" />
+          <attvalue for="1" value="Gryffindor[8]" />
+          <attvalue for="4" value="Human (formerly)Ghost[4]" />
+        </attvalues>
+      </node>
+      <node id="Stewart Ackerley" label="Stewart Ackerley">
+        <attvalues>
+          <attvalue for="0" value="Male[2]" />
+          <attvalue for="1" value="Ravenclaw[2]" />
+          <attvalue for="4" value="Human[2]" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
       <edge source="Alastor Moody" target="Tom Riddle" id="0" />
@@ -231,29 +1122,29 @@
       <edge source="Tom Riddle" target="Myrtle Warren" id="93" />
       <edge source="Tom Riddle" target="Narcissa Malfoy" id="94" />
       <edge source="Tom Riddle" target="Neville Longbottom" id="95" />
-      <edge source="Tom Riddle" target="Percy Weasley" id="96" />
-      <edge source="Tom Riddle" target="Peter Pettigrew" id="97" />
-      <edge source="Tom Riddle" target="Quirinus Quirrell" id="98" />
-      <edge source="Tom Riddle" target="Regulus Black" id="99" />
-      <edge source="Tom Riddle" target="Remus Lupin" id="100" />
-      <edge source="Tom Riddle" target="Ronald Weasley" id="101" />
-      <edge source="Tom Riddle" target="Rowena Ravenclaw" id="102" />
-      <edge source="Tom Riddle" target="Rubeus Hagrid" id="103" />
-      <edge source="Tom Riddle" target="Rufus Scrimgeour" id="104" />
-      <edge source="Tom Riddle" target="Severus Snape" id="105" />
-      <edge source="Tom Riddle" target="Sirius Black" id="106" />
-      <edge source="Tom Riddle" target="Sybill Trelawney" id="107" />
-      <edge source="Tom Riddle" target="William Weasley" id="108" />
-      <edge source="Tom Riddle" target="Anthony Goldstein" id="109" />
-      <edge source="Tom Riddle" target="Charles Weasley" id="110" />
-      <edge source="Tom Riddle" target="Emmeline Vance" id="111" />
-      <edge source="Tom Riddle" target="Fred Weasley" id="112" />
-      <edge source="Tom Riddle" target="Gregory Goyle" id="113" />
-      <edge source="Tom Riddle" target="Hannah Abbott" id="114" />
-      <edge source="Tom Riddle" target="Igor Karkaroff" id="115" />
-      <edge source="Tom Riddle" target="Olympe Maxime" id="116" />
-      <edge source="Tom Riddle" target="Padma Patil" id="117" />
-      <edge source="Tom Riddle" target="Penelope Clearwater" id="118" />
+      <edge source="Tom Riddle" target="Peter Pettigrew" id="96" />
+      <edge source="Tom Riddle" target="Quirinus Quirrell" id="97" />
+      <edge source="Tom Riddle" target="Regulus Black" id="98" />
+      <edge source="Tom Riddle" target="Remus Lupin" id="99" />
+      <edge source="Tom Riddle" target="Ronald Weasley" id="100" />
+      <edge source="Tom Riddle" target="Rowena Ravenclaw" id="101" />
+      <edge source="Tom Riddle" target="Rubeus Hagrid" id="102" />
+      <edge source="Tom Riddle" target="Rufus Scrimgeour" id="103" />
+      <edge source="Tom Riddle" target="Severus Snape" id="104" />
+      <edge source="Tom Riddle" target="Sirius Black" id="105" />
+      <edge source="Tom Riddle" target="Sybill Trelawney" id="106" />
+      <edge source="Tom Riddle" target="William Weasley" id="107" />
+      <edge source="Tom Riddle" target="Anthony Goldstein" id="108" />
+      <edge source="Tom Riddle" target="Charles Weasley" id="109" />
+      <edge source="Tom Riddle" target="Emmeline Vance" id="110" />
+      <edge source="Tom Riddle" target="Fred Weasley" id="111" />
+      <edge source="Tom Riddle" target="Gregory Goyle" id="112" />
+      <edge source="Tom Riddle" target="Hannah Abbott" id="113" />
+      <edge source="Tom Riddle" target="Igor Karkaroff" id="114" />
+      <edge source="Tom Riddle" target="Olympe Maxime" id="115" />
+      <edge source="Tom Riddle" target="Padma Patil" id="116" />
+      <edge source="Tom Riddle" target="Penelope Clearwater" id="117" />
+      <edge source="Tom Riddle" target="Percy Weasley" id="118" />
       <edge source="Tom Riddle" target="Vincent Crabbe" id="119" />
       <edge source="Tom Riddle" target="Weasley family" id="120" />
       <edge source="Albus Dumbledore" target="Harry Potter" id="121" />
